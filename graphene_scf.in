@@ -11,8 +11,8 @@
 
 &SYSTEM
   ibrav           = 4,
-  celldm (1)      = 4.6608373919
-  celldm (3)      = 8.1089553887
+  celldm (1)      = 4.6608373919,
+  celldm (3)      = 8.1089553887,
   nat             = 2,
   ntyp            = 1,
   nbnd            = 8

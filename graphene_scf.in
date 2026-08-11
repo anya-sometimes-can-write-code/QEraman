@@ -1,26 +1,26 @@
  &CONTROL
  calculation = 'scf '
- prefix = 'graphene '
- verbosity = 'high '
- tstress = . true .
- tprnfor = . true .
- outdir = './ temp '
- pseudo_dir = './'
+ prefix      = 'graphene '
+ verbosity   = 'high '
+ tstress     = . true .
+ tprnfor     = . true .
+ outdir      = './ temp '
+ pseudo_dir  = './'
  /
  &SYSTEM
- ibrav = 4
- celldm (1) = 4.6608373919
- celldm (3) = 8.1089553887
- nat = 2
- ntyp = 1
- nbnd = 8
- ecutwfc = 120.0
- occupations = 'smearing '
- smearing = 'mv '
+ ibrav           = 4
+ celldm (1)      = 4.6608373919
+ celldm (3)      = 8.1089553887
+ nat             = 2
+ ntyp            = 1
+ nbnd            = 8
+ ecutwfc         = 120.0
+ occupations     = 'smearing '
+ smearing        = 'mv '
  degauss = 0.01
  assume_isolated = '2D'
- nosym = . true .
- noinv = . true .
+ nosym           = . true .
+ noinv           = . true .
  /
  &ELECTRONS
  conv_thr = 10. D -10

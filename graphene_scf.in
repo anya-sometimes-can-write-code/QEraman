@@ -4,26 +4,26 @@
   prefix      = 'graphene',
   outdir      = './temp',
   pseudo_dir  = './',
-  tstress     = . true .
-  tprnfor     = . true .
+  tstress     = .true.
+  tprnfor     = .true.
 
 /
 
 &SYSTEM
-  ibrav     = 4,
+  ibrav           = 4,
   celldm (1)      = 4.6608373919
   celldm (3)      = 8.1089553887
-  nat  = 2,
-  ntyp = 1,
+  nat             = 2,
+  ntyp            = 1,
   nbnd            = 8
-  ecutwfc = 120.0,
-  ecutrho = 400.0,
-  occupations = 'smearing',
-  smearing = 'mv',
-  degauss = 0.01,
+  ecutwfc         = 120.0,
+  ecutrho         = 400.0,
+  occupations     = 'smearing',
+  smearing        = 'mv',
+  degauss         = 0.01,
   assume_isolated = '2D'
-  nosym           = . true .
-  noinv           = . true .
+  nosym           = .true.
+  noinv           = .true.
 
 /
 

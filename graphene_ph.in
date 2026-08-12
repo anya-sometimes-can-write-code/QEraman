@@ -1,7 +1,7 @@
  phonons
  & inputph
  prefix = 'graphene'
- outdir = './tmp '
+ outdir = './temp '
  tr2_ph = 1.0d-18
  verbosity = 'high'
  fildyn = 'graphene.dyn'

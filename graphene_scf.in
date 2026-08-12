@@ -18,7 +18,6 @@
   ntyp            = 1,
   nbnd            = 8
   ecutwfc         = 120.0,
-  ecutrho         = 400.0,
   occupations     = 'smearing',
   smearing        = 'mv',
   degauss         = 0.01,
@@ -31,10 +30,6 @@
 &ELECTRONS
   conv_thr = 1.0d-8
 
-/
-
-&CELL
-!  cell_dofree = '2Dxy'         ! Restricts relaxation to the flat plane only
 /
 
 ATOMIC_SPECIES

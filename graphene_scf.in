@@ -4,6 +4,7 @@
   prefix      = 'graphene',
   outdir      = './temp',
   pseudo_dir  = './',
+  verbosity =   'high '
   tstress     = .true.
   tprnfor     = .true.
 

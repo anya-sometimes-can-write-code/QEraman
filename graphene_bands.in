@@ -1,6 +1,6 @@
 &BANDS
   prefix = 'graphene'
-  outdir = './tmp'
+  outdir = './temp'
   filband = 'graphene.bands'
   lp = .true.
   filp = 'graphene.dvec'

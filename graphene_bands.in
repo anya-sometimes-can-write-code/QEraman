@@ -1,7 +1,7 @@
 &BANDS
   prefix = 'graphene'
   outdir = './tmp'
-  filband = 'graphene.bands '
+  filband = 'graphene.bands'
   lp = .true.
   filp = 'graphene.dvec'
 /
